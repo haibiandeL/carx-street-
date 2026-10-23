@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(carxsnow CXX)
+set(CMAKE_CXX_STANDARD 17)
+add_library(carxsnow SHARED main.cpp)
+set_target_properties(carxsnow PROPERTIES PREFIX "lib" OUTPUT_NAME "carxsnow")
+target_compile_options(carxsnow PRIVATE -Os -fvisibility=hidden -Wno-unused-parameter)
