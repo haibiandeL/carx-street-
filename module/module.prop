@@ -1,0 +1,6 @@
+id=carx_snow_control
+name=CarX Snow Control
+version=v1.0.0
+versionCode=1
+author=you
+description=Real-time snow particle control for CarX Street 1.23.0
