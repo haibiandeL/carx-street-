@@ -9,7 +9,7 @@
 #include <android/log.h>
 #include "zygisk.hpp"
 
-#define LOG(...) __android_log_print(ANDROID_LOG_INFO, "CarXSnow", __VA_ARGS__)
+#define LOG(...) __android_log_print(ANDROID_LOG_INFO, "com.carxtech.sr", __VA_ARGS__)
 
 using zygisk::Api;
 using zygisk::AppSpecializeArgs;
