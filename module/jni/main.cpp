@@ -16,7 +16,7 @@ using zygisk::AppSpecializeArgs;
 using zygisk::ServerSpecializeArgs;
 
 static const char* kPkg = "com.carxtech.sr";
-static const char* kCfg = "/data/local/tmp/carx_snow.ini";
+static const char* kCfg = "/data/local/tmp/com.carxtech.sr.ini";
 
 // ---- config ----
 static volatile int   g_en    = 1;
